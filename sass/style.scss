@@ -1,0 +1,72 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+
+body{
+	background: url('../image/background.jpg');
+	color: white;
+}
+/*----index----*/
+.title{
+	text-align: center;
+	margin-top: 100px;
+	font-size: 25px;
+	font-family: Arial;
+}
+.list{
+	margin: 80px 0 0 350px;
+	width: 700px; 
+	height: 100px;
+}
+.list li{
+	display: inline-block;
+	margin: 40px;
+
+}
+
+.button{
+	text-decoration: none;
+	font-size: 20px;
+	font-family: sans-serif;
+	padding: 10px;
+	color: white;
+	background-color: rgba(0,51,102,1);
+	background: linear-gradient(#336699, #003366 70%);
+	border-radius: 5px;
+}
+.last{
+	margin-left: 150px;
+}
+.content{
+	width: 800px;
+	height: 500px;
+	color: grey;
+	border: 1px solid white;
+	margin: 100px auto;
+}
+/*----Лабораторные страницы----*/
+.number_lab {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 50px;
+}
+.prewie{
+  font-size: 20px;
+  width: 900px;
+  margin-left: 200px;
+  text-align: center;
+}
+.content {
+  width: 800px;
+  color: white;
+  border: 2px solid white;
+  border-radius: 15px; 
+  margin: 100px auto;
+  padding: 50px;
+}
+#AmountVerticles{
+  width: 30px;
+}
